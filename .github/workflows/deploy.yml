@@ -27,6 +27,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           source: 'dist/*'
-          target: '/www/wwwroot/jun.sh'
-          strip_components: 0
+          target: '/www/wwwroot/jun.sh/dist'
+          strip_components: 1
           rm: 'true'
