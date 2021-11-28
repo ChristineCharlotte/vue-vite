@@ -137,7 +137,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .user-profile {
   display: grid;
   grid-template-rows: 1fr 3fr;
