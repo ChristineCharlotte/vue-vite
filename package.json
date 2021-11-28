@@ -7,6 +7,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.3.0",
     "vue": "^3.2.16"
   },
   "devDependencies": {
