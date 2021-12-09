@@ -7,6 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "npm": "^8.2.0",
     "uiffy": "^0.0.1",
     "vue": "^3.2.16"
   },
