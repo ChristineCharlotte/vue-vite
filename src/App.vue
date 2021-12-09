@@ -1,11 +1,16 @@
 <template>
-  <div class="container">
-    <h1>Hello</h1>
+  <div id="app">
+    <UserProfile />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
+import UserProfile from './components/UserProfile.vue';
+
+export default {
+  name: 'App',
+  components: { UserProfile },
+};
 </script>
 
 <style>
